@@ -1,0 +1,6 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  StdAfx.cpp
+C:\code\duilib\DuiLib\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  App.cpp
+  TestApp1.vcxproj -> C:\code\duilib\bin\TestApp1.exe

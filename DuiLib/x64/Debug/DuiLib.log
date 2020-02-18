@@ -1,0 +1,120 @@
+﻿  StdAfx.cpp
+C:\code\duilib\DuiLib\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  UITreeView.cpp
+  UIlib.cpp
+  WinImplBase.cpp
+  UIDelegate.cpp
+  Utils.cpp
+  WndShadow.cpp
+  UIBase.cpp
+C:\code\duilib\DuiLib\Core\UIBase.cpp(295,23): warning C4244: '=': conversion from 'WPARAM' to 'UINT', possible loss of data
+C:\code\duilib\DuiLib\Core\UIBase.cpp(307,55): warning C4244: 'argument': conversion from 'WPARAM' to 'int', possible loss of data
+  UIContainer.cpp
+  UIControl.cpp
+C:\code\duilib\DuiLib\Core\UIControl.cpp(832,40): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+  UIDlgBuilder.cpp
+  UIManager.cpp
+C:\code\duilib\DuiLib\Core\UIManager.cpp(1045,39): warning C4838: conversion from 'DWORD' to 'LONG' requires a narrowing conversion
+C:\code\duilib\DuiLib\Core\UIManager.cpp(1045,48): warning C4838: conversion from 'DWORD' to 'LONG' requires a narrowing conversion
+C:\code\duilib\DuiLib\Core\UIManager.cpp(1752,15): warning C4244: 'return': conversion from 'WPARAM' to 'int', possible loss of data
+  UIMarkup.cpp
+C:\code\duilib\DuiLib\Core\UIMarkup.cpp(209,51): warning C4244: '=': conversion from '__int64' to 'ULONG', possible loss of data
+C:\code\duilib\DuiLib\Core\UIMarkup.cpp(214,54): warning C4244: '=': conversion from '__int64' to 'ULONG', possible loss of data
+C:\code\duilib\DuiLib\Core\UIMarkup.cpp(489,20): warning C4244: 'initializing': conversion from '__int64' to 'ULONG', possible loss of data
+C:\code\duilib\DuiLib\Core\UIMarkup.cpp(490,32): warning C4244: '=': conversion from '__int64' to 'ULONG', possible loss of data
+C:\code\duilib\DuiLib\Core\UIMarkup.cpp(506,35): warning C4244: '=': conversion from '__int64' to 'ULONG', possible loss of data
+C:\code\duilib\DuiLib\Core\UIMarkup.cpp(514,37): warning C4244: '=': conversion from '__int64' to 'ULONG', possible loss of data
+  UIRender.cpp
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1196,61): warning C4838: conversion from 'int' to 'COLOR16' requires a narrowing conversion
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1196,86): warning C4838: conversion from 'int' to 'COLOR16' requires a narrowing conversion
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1196,111): warning C4838: conversion from 'int' to 'COLOR16' requires a narrowing conversion
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1197,66): warning C4838: conversion from 'int' to 'COLOR16' requires a narrowing conversion
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1197,92): warning C4838: conversion from 'int' to 'COLOR16' requires a narrowing conversion
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1197,118): warning C4838: conversion from 'int' to 'COLOR16' requires a narrowing conversion
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1387,112): warning C4311: 'type cast': pointer truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1387,112): warning C4302: 'type cast': truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1454,116): warning C4311: 'type cast': pointer truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1454,116): warning C4302: 'type cast': truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1488,53): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1502,34): warning C4311: 'type cast': pointer truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1502,34): warning C4302: 'type cast': truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1523,34): warning C4311: 'type cast': pointer truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1523,34): warning C4302: 'type cast': truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1533,53): warning C4312: 'type cast': conversion from 'DWORD' to 'LPVOID' of greater size
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1588,30): warning C4311: 'type cast': pointer truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1588,30): warning C4302: 'type cast': truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1621,38): warning C4311: 'type cast': pointer truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1621,38): warning C4302: 'type cast': truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1689,104): warning C4311: 'type cast': pointer truncation from 'LPVOID' to 'UINT'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1689,104): warning C4302: 'type cast': truncation from 'LPVOID' to 'UINT'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1735,58): warning C4312: 'type cast': conversion from 'int' to 'LPVOID' of greater size
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1754,38): warning C4312: 'type cast': conversion from 'UINT' to 'LPVOID' of greater size
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1788,34): warning C4311: 'type cast': pointer truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1788,34): warning C4302: 'type cast': truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1825,113): warning C4311: 'type cast': pointer truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1825,113): warning C4302: 'type cast': truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1833,26): warning C4311: 'type cast': pointer truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1833,26): warning C4302: 'type cast': truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1857,113): warning C4311: 'type cast': pointer truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1857,113): warning C4302: 'type cast': truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1877,30): warning C4311: 'type cast': pointer truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1877,30): warning C4302: 'type cast': truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1890,99): warning C4311: 'type cast': pointer truncation from 'LPVOID' to 'UINT'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1890,99): warning C4302: 'type cast': truncation from 'LPVOID' to 'UINT'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1906,99): warning C4311: 'type cast': pointer truncation from 'LPVOID' to 'UINT'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1906,99): warning C4302: 'type cast': truncation from 'LPVOID' to 'UINT'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1924,99): warning C4311: 'type cast': pointer truncation from 'LPVOID' to 'UINT'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1924,99): warning C4302: 'type cast': truncation from 'LPVOID' to 'UINT'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(2007,99): warning C4311: 'type cast': pointer truncation from 'LPVOID' to 'UINT'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(2007,99): warning C4302: 'type cast': truncation from 'LPVOID' to 'UINT'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(2043,109): warning C4311: 'type cast': pointer truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(2043,109): warning C4302: 'type cast': truncation from 'LPVOID' to 'int'
+C:\code\duilib\DuiLib\Core\UIRender.cpp(2194,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  UIChildLayout.cpp
+  UIHorizontalLayout.cpp
+C:\code\duilib\DuiLib\Layout\UIHorizontalLayout.cpp(313,37): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+  UITabLayout.cpp
+  UITileLayout.cpp
+  UIVerticalLayout.cpp
+C:\code\duilib\DuiLib\Layout\UIVerticalLayout.cpp(306,37): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+  UIActiveX.cpp
+  UIButton.cpp
+C:\code\duilib\DuiLib\Control\UIButton.cpp(127,35): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+  Generating Code...
+  Compiling...
+  UICheckBox.cpp
+  UICombo.cpp
+  UIDateTime.cpp
+C:\code\duilib\DuiLib\Control\UIDateTime.cpp(297,35): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+  UIEdit.cpp
+C:\code\duilib\DuiLib\Control\UIEdit.cpp(288,35): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+  UIGifAnim.cpp
+C:\code\duilib\DuiLib\Control\UIGifAnim.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  UILabel.cpp
+C:\code\duilib\DuiLib\Control\UILabel.cpp(95,32): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\code\duilib\DuiLib\Control\UILabel.cpp(438,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\code\duilib\DuiLib\Control\UILabel.cpp(463,35): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\code\duilib\DuiLib\Control\UILabel.cpp(481,34): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  UIList.cpp
+C:\code\duilib\DuiLib\Control\UIList.cpp(1781,44): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+C:\code\duilib\DuiLib\Control\UIList.cpp(2417,48): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+  UIOption.cpp
+  UIProgress.cpp
+  UIRichEdit.cpp
+C:\code\duilib\DuiLib\Control\UIRichEdit.cpp(353,81): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\code\duilib\DuiLib\Control\UIRichEdit.cpp(1347,36): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  UIScrollBar.cpp
+  UISlider.cpp
+C:\code\duilib\DuiLib\Control\UISlider.cpp(212,36): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+  UIText.cpp
+C:\code\duilib\DuiLib\Control\UIText.cpp(52,37): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+  UIWebBrowser.cpp
+  Generating Code...
+  stb_image.c
+  XUnzip.cpp
+C:\code\duilib\DuiLib\Utils\XUnzip.cpp(3458,30): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1274,5): warning MSB8012: TargetPath(C:\code\duilib\x64\Debug\DuiLib.dll) does not match the Linker's OutputFile property value (C:\code\duilib\bin\DuiLib_d.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1276,5): warning MSB8012: TargetName(DuiLib) does not match the Linker's OutputFile property value (DuiLib_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library ../lib/DuiLib_d.lib and object ../lib/DuiLib_d.exp
+LINK : warning LNK4281: undesirable base address 0x11000000 for x64 image; set base address above 4GB for best ASLR optimization
+  DuiLib.vcxproj -> C:\code\duilib\x64\Debug\DuiLib.dll

@@ -1,0 +1,453 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v150\Platforms\Win32\PlatformToolsets\v141_xp\Toolset.targets(39,5): warning MSB8051: Support for targeting Windows XP is deprecated and will not be present in future releases of Visual Studio. Please see https://go.microsoft.com/fwlink/?linkid=2023588 for more information.
+cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  StdAfx.cpp
+C:\code\duilib\DuiLib\Core\UIManager.h(45): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  main.cpp
+C:\code\duilib\DuiLib\Core\UIManager.h(45): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  UIMenu.cpp
+C:\code\duilib\DuiLib\Core\UIManager.h(45): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  UICrack.cpp
+C:\code\duilib\DuiLib\Core\UIManager.h(45): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  SkinSetting.cpp
+C:\code\duilib\DuiLib\Core\UIManager.h(45): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  main_frame.cpp
+C:\code\duilib\DuiLib\Core\UIManager.h(45): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  debug.cpp
+C:\code\duilib\DuiLib\Core\UIManager.h(45): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v150\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\code\duilib\MenuDemo\.\Debug\MenuDemo.exe) does not match the Linker's OutputFile property value (C:\code\duilib\bin\MenuDemo_d.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v150\Microsoft.CppBuild.targets(1218,5): warning MSB8012: TargetName(MenuDemo) does not match the Linker's OutputFile property value (MenuDemo_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: __thiscall DuiLib::STRINGorID::STRINGorID(unsigned int)" (??0STRINGorID@DuiLib@@QAE@I@Z) already defined in DuiLib.lib(Utils.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: __thiscall DuiLib::CDuiPoint::CDuiPoint(struct tagPOINT const &)" (??0CDuiPoint@DuiLib@@QAE@ABUtagPOINT@@@Z) already defined in DuiLib.lib(Utils.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: __thiscall DuiLib::CDuiString::CDuiString(char const *,int)" (??0CDuiString@DuiLib@@QAE@PBDH@Z) already defined in DuiLib.lib(Utils.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: __thiscall DuiLib::CDuiString::~CDuiString(void)" (??1CDuiString@DuiLib@@QAE@XZ) already defined in DuiLib.lib(Utils.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: __thiscall DuiLib::CDuiString::operator char const *(void)const " (??BCDuiString@DuiLib@@QBEPBDXZ) already defined in DuiLib.lib(Utils.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: class DuiLib::CControlUI * __thiscall DuiLib::CPaintManagerUI::FindControl(char const *)const " (?FindControl@CPaintManagerUI@DuiLib@@QBEPAVCControlUI@2@PBD@Z) already defined in DuiLib.lib(UIManager.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: void __thiscall DuiLib::CWindowWnd::Close(unsigned int)" (?Close@CWindowWnd@DuiLib@@QAEXI@Z) already defined in DuiLib.lib(UIBase.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: long __thiscall DuiLib::CWindowWnd::SendMessageA(unsigned int,unsigned int,long)" (?SendMessageA@CWindowWnd@DuiLib@@QAEJIIJ@Z) already defined in DuiLib.lib(UIBase.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "protected: virtual long __thiscall DuiLib::CWindowWnd::HandleMessage(unsigned int,unsigned int,long)" (?HandleMessage@CWindowWnd@DuiLib@@MAEJIIJ@Z) already defined in DuiLib.lib(UIBase.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: __thiscall DuiLib::WindowImplBase::WindowImplBase(void)" (??0WindowImplBase@DuiLib@@QAE@XZ) already defined in DuiLib.lib(StdAfx.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: virtual __thiscall DuiLib::WindowImplBase::~WindowImplBase(void)" (??1WindowImplBase@DuiLib@@UAE@XZ) already defined in DuiLib.lib(StdAfx.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: virtual void __thiscall DuiLib::WindowImplBase::OnFinalMessage(struct HWND__ *)" (?OnFinalMessage@WindowImplBase@DuiLib@@UAEXPAUHWND__@@@Z) already defined in DuiLib.lib(WinImplBase.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: virtual long __thiscall DuiLib::WindowImplBase::HandleMessage(unsigned int,unsigned int,long)" (?HandleMessage@WindowImplBase@DuiLib@@UAEJIIJ@Z) already defined in DuiLib.lib(WinImplBase.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: __thiscall DuiLib::CDuiString::CDuiString(class DuiLib::CDuiString const &)" (??0CDuiString@DuiLib@@QAE@ABV01@@Z) already defined in DuiLib.lib(Utils.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: __thiscall DuiLib::STRINGorID::STRINGorID(char const *)" (??0STRINGorID@DuiLib@@QAE@PBD@Z) already defined in DuiLib.lib(Utils.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: __thiscall DuiLib::CDuiPoint::CDuiPoint(void)" (??0CDuiPoint@DuiLib@@QAE@XZ) already defined in DuiLib.lib(Utils.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: __thiscall DuiLib::CDuiSize::CDuiSize(long,long)" (??0CDuiSize@DuiLib@@QAE@JJ@Z) already defined in DuiLib.lib(Utils.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: __thiscall DuiLib::CDuiRect::CDuiRect(void)" (??0CDuiRect@DuiLib@@QAE@XZ) already defined in DuiLib.lib(Utils.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: __thiscall DuiLib::CDuiRect::CDuiRect(struct tagRECT const &)" (??0CDuiRect@DuiLib@@QAE@ABUtagRECT@@@Z) already defined in DuiLib.lib(Utils.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: int __thiscall DuiLib::CDuiRect::GetWidth(void)const " (?GetWidth@CDuiRect@DuiLib@@QBEHXZ) already defined in DuiLib.lib(Utils.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: int __thiscall DuiLib::CDuiRect::GetHeight(void)const " (?GetHeight@CDuiRect@DuiLib@@QBEHXZ) already defined in DuiLib.lib(Utils.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: __thiscall DuiLib::CDuiString::CDuiString(void)" (??0CDuiString@DuiLib@@QAE@XZ) already defined in DuiLib.lib(Utils.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: bool __thiscall DuiLib::CDuiString::IsEmpty(void)const " (?IsEmpty@CDuiString@DuiLib@@QBE_NXZ) already defined in DuiLib.lib(Utils.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: char const * __thiscall DuiLib::CDuiString::GetData(void)const " (?GetData@CDuiString@DuiLib@@QBEPBDXZ) already defined in DuiLib.lib(Utils.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: class DuiLib::CDuiString const & __thiscall DuiLib::CDuiString::operator=(char const *)" (??4CDuiString@DuiLib@@QAEABV01@PBD@Z) already defined in DuiLib.lib(Utils.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: int __thiscall DuiLib::CDuiPtrArray::GetSize(void)const " (?GetSize@CDuiPtrArray@DuiLib@@QBEHXZ) already defined in DuiLib.lib(Utils.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: void * __thiscall DuiLib::CDuiPtrArray::operator[](int)const " (??ACDuiPtrArray@DuiLib@@QBEPAXH@Z) already defined in DuiLib.lib(Utils.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: __thiscall DuiLib::CPaintManagerUI::CPaintManagerUI(void)" (??0CPaintManagerUI@DuiLib@@QAE@XZ) already defined in DuiLib.lib(UIManager.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: __thiscall DuiLib::CPaintManagerUI::~CPaintManagerUI(void)" (??1CPaintManagerUI@DuiLib@@QAE@XZ) already defined in DuiLib.lib(UIManager.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: void __thiscall DuiLib::CPaintManagerUI::Init(struct HWND__ *,char const *)" (?Init@CPaintManagerUI@DuiLib@@QAEXPAUHWND__@@PBD@Z) already defined in DuiLib.lib(UIManager.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: struct HDC__ * __thiscall DuiLib::CPaintManagerUI::GetPaintDC(void)const " (?GetPaintDC@CPaintManagerUI@DuiLib@@QBEPAUHDC__@@XZ) already defined in DuiLib.lib(UIManager.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: struct HWND__ * __thiscall DuiLib::CPaintManagerUI::GetPaintWindow(void)const " (?GetPaintWindow@CPaintManagerUI@DuiLib@@QBEPAUHWND__@@XZ) already defined in DuiLib.lib(UIManager.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: struct tagSIZE __thiscall DuiLib::CPaintManagerUI::GetInitSize(void)" (?GetInitSize@CPaintManagerUI@DuiLib@@QAE?AUtagSIZE@@XZ) already defined in DuiLib.lib(UIManager.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: void __thiscall DuiLib::CPaintManagerUI::SetInitSize(int,int)" (?SetInitSize@CPaintManagerUI@DuiLib@@QAEXHH@Z) already defined in DuiLib.lib(UIManager.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: char const * __thiscall DuiLib::CPaintManagerUI::GetDefaultAttributeList(char const *)const " (?GetDefaultAttributeList@CPaintManagerUI@DuiLib@@QBEPBDPBD@Z) already defined in DuiLib.lib(UIManager.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: bool __thiscall DuiLib::CPaintManagerUI::AttachDialog(class DuiLib::CControlUI *)" (?AttachDialog@CPaintManagerUI@DuiLib@@QAE_NPAVCControlUI@2@@Z) already defined in DuiLib.lib(UIManager.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: bool __thiscall DuiLib::CPaintManagerUI::MessageHandler(unsigned int,unsigned int,long,long &)" (?MessageHandler@CPaintManagerUI@DuiLib@@QAE_NIIJAAJ@Z) already defined in DuiLib.lib(UIManager.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: __thiscall DuiLib::CWindowWnd::CWindowWnd(void)" (??0CWindowWnd@DuiLib@@QAE@XZ) already defined in DuiLib.lib(UIBase.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: struct HWND__ * __thiscall DuiLib::CWindowWnd::GetHWND(void)const " (?GetHWND@CWindowWnd@DuiLib@@QBEPAUHWND__@@XZ) already defined in DuiLib.lib(UIBase.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: __thiscall DuiLib::CWindowWnd::operator struct HWND__ *(void)const " (??BCWindowWnd@DuiLib@@QBEPAUHWND__@@XZ) already defined in DuiLib.lib(UIBase.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: struct HWND__ * __thiscall DuiLib::CWindowWnd::Create(struct HWND__ *,char const *,unsigned long,unsigned long,struct tagRECT,struct HMENU__ *)" (?Create@CWindowWnd@DuiLib@@QAEPAUHWND__@@PAU3@PBDKKUtagRECT@@PAUHMENU__@@@Z) already defined in DuiLib.lib(UIBase.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: void __thiscall DuiLib::CControlUI::SetBkColor(unsigned long)" (?SetBkColor@CControlUI@DuiLib@@QAEXK@Z) already defined in DuiLib.lib(UIControl.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: void __thiscall DuiLib::CControlUI::SetBorderColor(unsigned long)" (?SetBorderColor@CControlUI@DuiLib@@QAEXK@Z) already defined in DuiLib.lib(UIControl.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: void __thiscall DuiLib::CControlUI::SetBorderSize(int)" (?SetBorderSize@CControlUI@DuiLib@@QAEXH@Z) already defined in DuiLib.lib(UIControl.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: __thiscall DuiLib::CDialogBuilder::CDialogBuilder(void)" (??0CDialogBuilder@DuiLib@@QAE@XZ) already defined in DuiLib.lib(UIDlgBuilder.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: class DuiLib::CControlUI * __thiscall DuiLib::CDialogBuilder::Create(class DuiLib::STRINGorID,char const *,class DuiLib::IDialogBuilderCallback *,class DuiLib::CPaintManagerUI *,class DuiLib::CControlUI *)" (?Create@CDialogBuilder@DuiLib@@QAEPAVCControlUI@2@VSTRINGorID@2@PBDPAVIDialogBuilderCallback@2@PAVCPaintManagerUI@2@PAV32@@Z) already defined in DuiLib.lib(UIDlgBuilder.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: __thiscall DuiLib::CDialogBuilder::~CDialogBuilder(void)" (??1CDialogBuilder@DuiLib@@QAE@XZ) already defined in DuiLib.lib(WinImplBase.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: __thiscall DuiLib::CRenderClip::~CRenderClip(void)" (??1CRenderClip@DuiLib@@QAE@XZ) already defined in DuiLib.lib(UIRender.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: static void __cdecl DuiLib::CRenderClip::GenerateClip(struct HDC__ *,struct tagRECT,class DuiLib::CRenderClip &)" (?GenerateClip@CRenderClip@DuiLib@@SAXPAUHDC__@@UtagRECT@@AAV12@@Z) already defined in DuiLib.lib(UIRender.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: static void __cdecl DuiLib::CRenderClip::UseOldClipBegin(struct HDC__ *,class DuiLib::CRenderClip &)" (?UseOldClipBegin@CRenderClip@DuiLib@@SAXPAUHDC__@@AAV12@@Z) already defined in DuiLib.lib(UIRender.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: static void __cdecl DuiLib::CRenderClip::UseOldClipEnd(struct HDC__ *,class DuiLib::CRenderClip &)" (?UseOldClipEnd@CRenderClip@DuiLib@@SAXPAUHDC__@@AAV12@@Z) already defined in DuiLib.lib(UIRender.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: static void __cdecl DuiLib::CRenderEngine::DrawTextA(struct HDC__ *,class DuiLib::CPaintManagerUI *,struct tagRECT &,char const *,unsigned long,int,unsigned int)" (?DrawTextA@CRenderEngine@DuiLib@@SAXPAUHDC__@@PAVCPaintManagerUI@2@AAUtagRECT@@PBDKHI@Z) already defined in DuiLib.lib(UIRender.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: static void __cdecl DuiLib::CRenderEngine::DrawHtmlText(struct HDC__ *,class DuiLib::CPaintManagerUI *,struct tagRECT &,char const *,unsigned long,struct tagRECT *,class DuiLib::CDuiString *,int &,int,unsigned int)" (?DrawHtmlText@CRenderEngine@DuiLib@@SAXPAUHDC__@@PAVCPaintManagerUI@2@AAUtagRECT@@PBDKPAU5@PAVCDuiString@2@AAHHI@Z) already defined in DuiLib.lib(UIRender.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: __thiscall DuiLib::CListUI::CListUI(void)" (??0CListUI@DuiLib@@QAE@XZ) already defined in DuiLib.lib(UIList.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: virtual void * __thiscall DuiLib::CListUI::GetInterface(char const *)" (?GetInterface@CListUI@DuiLib@@UAEPAXPBD@Z) already defined in DuiLib.lib(UIList.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: virtual int __thiscall DuiLib::CListUI::GetItemIndex(class DuiLib::CControlUI *)const " (?GetItemIndex@CListUI@DuiLib@@UBEHPAVCControlUI@2@@Z) already defined in DuiLib.lib(UIList.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: virtual bool __thiscall DuiLib::CListUI::SetItemIndex(class DuiLib::CControlUI *,int)" (?SetItemIndex@CListUI@DuiLib@@UAE_NPAVCControlUI@2@H@Z) already defined in DuiLib.lib(UIList.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: virtual bool __thiscall DuiLib::CListUI::Add(class DuiLib::CControlUI *)" (?Add@CListUI@DuiLib@@UAE_NPAVCControlUI@2@@Z) already defined in DuiLib.lib(UIList.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: virtual bool __thiscall DuiLib::CListUI::AddAt(class DuiLib::CControlUI *,int)" (?AddAt@CListUI@DuiLib@@UAE_NPAVCControlUI@2@H@Z) already defined in DuiLib.lib(UIList.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: virtual bool __thiscall DuiLib::CListUI::Remove(class DuiLib::CControlUI *,bool)" (?Remove@CListUI@DuiLib@@UAE_NPAVCControlUI@2@_N@Z) already defined in DuiLib.lib(UIList.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: virtual class DuiLib::CListHeaderUI * __thiscall DuiLib::CListUI::GetHeader(void)const " (?GetHeader@CListUI@DuiLib@@UBEPAVCListHeaderUI@2@XZ) already defined in DuiLib.lib(UIList.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: virtual void __thiscall DuiLib::CListUI::DoEvent(struct DuiLib::tagTEventUI &)" (?DoEvent@CListUI@DuiLib@@UAEXAAUtagTEventUI@2@@Z) already defined in DuiLib.lib(UIList.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: virtual void __thiscall DuiLib::CListUI::SetAttribute(char const *,char const *)" (?SetAttribute@CListUI@DuiLib@@UAEXPBD0@Z) already defined in DuiLib.lib(UIList.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: virtual __thiscall DuiLib::CListUI::~CListUI(void)" (??1CListUI@DuiLib@@UAE@XZ) already defined in DuiLib.lib(UIList.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: __thiscall DuiLib::CListContainerElementUI::CListContainerElementUI(void)" (??0CListContainerElementUI@DuiLib@@QAE@XZ) already defined in DuiLib.lib(UIList.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: virtual void * __thiscall DuiLib::CListContainerElementUI::GetInterface(char const *)" (?GetInterface@CListContainerElementUI@DuiLib@@UAEPAXPBD@Z) already defined in DuiLib.lib(UIList.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: void __thiscall DuiLib::CListContainerElementUI::Invalidate(void)" (?Invalidate@CListContainerElementUI@DuiLib@@QAEXXZ) already defined in DuiLib.lib(UIList.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: virtual bool __thiscall DuiLib::CListContainerElementUI::Activate(void)" (?Activate@CListContainerElementUI@DuiLib@@UAE_NXZ) already defined in DuiLib.lib(UIList.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: virtual void __thiscall DuiLib::CListContainerElementUI::DoEvent(struct DuiLib::tagTEventUI &)" (?DoEvent@CListContainerElementUI@DuiLib@@UAEXAAUtagTEventUI@2@@Z) already defined in DuiLib.lib(UIList.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: void __thiscall DuiLib::CListContainerElementUI::DrawItemBk(struct HDC__ *,struct tagRECT const &)" (?DrawItemBk@CListContainerElementUI@DuiLib@@QAEXPAUHDC__@@ABUtagRECT@@@Z) already defined in DuiLib.lib(UIList.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: virtual __thiscall DuiLib::CListContainerElementUI::~CListContainerElementUI(void)" (??1CListContainerElementUI@DuiLib@@UAE@XZ) already defined in DuiLib.lib(UIList.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: static void __cdecl DuiLib::CPaintManagerUI::SetInstance(struct HINSTANCE__ *)" (?SetInstance@CPaintManagerUI@DuiLib@@SAXPAUHINSTANCE__@@@Z) already defined in DuiLib.lib(UIManager.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: static int __cdecl DuiLib::CPaintManagerUI::MessageLoop(void)" (?MessageLoop@CPaintManagerUI@DuiLib@@SAHXZ) already defined in DuiLib.lib(UIManager.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: struct HWND__ * __thiscall DuiLib::CWindowWnd::Create(struct HWND__ *,char const *,unsigned long,unsigned long,int,int,int,int,struct HMENU__ *)" (?Create@CWindowWnd@DuiLib@@QAEPAUHWND__@@PAU3@PBDKKHHHHPAUHMENU__@@@Z) already defined in DuiLib.lib(UIBase.obj)
+DuiLib_d.lib(DuiLib_d.dll) : error LNK2005: "public: void __thiscall DuiLib::CWindowWnd::CenterWindow(void)" (?CenterWindow@CWindowWnd@DuiLib@@QAEXXZ) already defined in DuiLib.lib(UIBase.obj)
+     Creating library .\Debug\MenuDemo.lib and object .\Debug\MenuDemo.exp
+main_frame.obj : error LNK2019: unresolved external symbol __imp__PostQuitMessage@4 referenced in function "public: virtual __thiscall MainFrame::~MainFrame(void)" (??1MainFrame@@UAE@XZ)
+DuiLib.lib(UIBase.obj) : error LNK2001: unresolved external symbol __imp__PostQuitMessage@4
+main_frame.obj : error LNK2019: unresolved external symbol __imp__IsZoomed@4 referenced in function "public: virtual long __thiscall MainFrame::OnSysCommand(unsigned int,unsigned int,long,int &)" (?OnSysCommand@MainFrame@@UAEJIIJAAH@Z)
+DuiLib.lib(WinImplBase.obj) : error LNK2001: unresolved external symbol __imp__IsZoomed@4
+main_frame.obj : error LNK2019: unresolved external symbol __imp__ClientToScreen@8 referenced in function "protected: virtual void __thiscall MainFrame::Notify(struct DuiLib::tagTNotifyUI &)" (?Notify@MainFrame@@MAEXAAUtagTNotifyUI@DuiLib@@@Z)
+DuiLib.lib(UIRichEdit.obj) : error LNK2001: unresolved external symbol __imp__ClientToScreen@8
+DuiLib.lib(UIActiveX.obj) : error LNK2001: unresolved external symbol __imp__ClientToScreen@8
+DuiLib.lib(UIEdit.obj) : error LNK2001: unresolved external symbol __imp__SendMessageA@16
+DuiLib.lib(UIDateTime.obj) : error LNK2001: unresolved external symbol __imp__SendMessageA@16
+UIMenu.obj : error LNK2001: unresolved external symbol __imp__SendMessageA@16
+DuiLib.lib(UIBase.obj) : error LNK2001: unresolved external symbol __imp__SendMessageA@16
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__SendMessageA@16
+DuiLib.lib(UIRichEdit.obj) : error LNK2001: unresolved external symbol __imp__SendMessageA@16
+DuiLib.lib(UIEdit.obj) : error LNK2001: unresolved external symbol __imp__ShowWindow@8
+DuiLib.lib(UIDateTime.obj) : error LNK2001: unresolved external symbol __imp__ShowWindow@8
+DuiLib.lib(UIActiveX.obj) : error LNK2001: unresolved external symbol __imp__ShowWindow@8
+DuiLib.lib(WndShadow.obj) : error LNK2001: unresolved external symbol __imp__ShowWindow@8
+UIMenu.obj : error LNK2001: unresolved external symbol __imp__ShowWindow@8
+main.obj : error LNK2001: unresolved external symbol __imp__ShowWindow@8
+DuiLib.lib(UIBase.obj) : error LNK2001: unresolved external symbol __imp__ShowWindow@8
+DuiLib.lib(UICombo.obj) : error LNK2001: unresolved external symbol __imp__ShowWindow@8
+UIMenu.obj : error LNK2019: unresolved external symbol __imp__MoveWindow@24 referenced in function "public: virtual long __thiscall DuiLib::CMenuWnd::HandleMessage(unsigned int,unsigned int,long)" (?HandleMessage@CMenuWnd@DuiLib@@UAEJIIJ@Z)
+DuiLib.lib(UIActiveX.obj) : error LNK2001: unresolved external symbol __imp__MoveWindow@24
+DuiLib.lib(WndShadow.obj) : error LNK2001: unresolved external symbol __imp__MoveWindow@24
+DuiLib.lib(UIEdit.obj) : error LNK2001: unresolved external symbol __imp__SetWindowPos@28
+DuiLib.lib(UIDateTime.obj) : error LNK2001: unresolved external symbol __imp__SetWindowPos@28
+DuiLib.lib(WndShadow.obj) : error LNK2001: unresolved external symbol __imp__SetWindowPos@28
+UIMenu.obj : error LNK2001: unresolved external symbol __imp__SetWindowPos@28
+DuiLib.lib(WinImplBase.obj) : error LNK2001: unresolved external symbol __imp__SetWindowPos@28
+DuiLib.lib(UIBase.obj) : error LNK2001: unresolved external symbol __imp__SetWindowPos@28
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__SetWindowPos@28
+UIMenu.obj : error LNK2019: unresolved external symbol __imp__SetForegroundWindow@4 referenced in function "public: virtual long __thiscall DuiLib::CMenuWnd::HandleMessage(unsigned int,unsigned int,long)" (?HandleMessage@CMenuWnd@DuiLib@@UAEJIIJ@Z)
+DuiLib.lib(UIEdit.obj) : error LNK2001: unresolved external symbol __imp__GetClientRect@8
+DuiLib.lib(UIActiveX.obj) : error LNK2001: unresolved external symbol __imp__GetClientRect@8
+UIMenu.obj : error LNK2001: unresolved external symbol __imp__GetClientRect@8
+DuiLib.lib(WinImplBase.obj) : error LNK2001: unresolved external symbol __imp__GetClientRect@8
+DuiLib.lib(UIBase.obj) : error LNK2001: unresolved external symbol __imp__GetClientRect@8
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__GetClientRect@8
+DuiLib.lib(WndShadow.obj) : error LNK2001: unresolved external symbol __imp__GetWindowRect@8
+UIMenu.obj : error LNK2001: unresolved external symbol __imp__GetWindowRect@8
+DuiLib.lib(WinImplBase.obj) : error LNK2001: unresolved external symbol __imp__GetWindowRect@8
+DuiLib.lib(UIBase.obj) : error LNK2001: unresolved external symbol __imp__GetWindowRect@8
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__GetWindowRect@8
+UIMenu.obj : error LNK2019: unresolved external symbol __imp__MapWindowPoints@16 referenced in function "public: virtual long __thiscall DuiLib::CMenuWnd::HandleMessage(unsigned int,unsigned int,long)" (?HandleMessage@CMenuWnd@DuiLib@@UAEJIIJ@Z)
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__MapWindowPoints@16
+DuiLib.lib(UICombo.obj) : error LNK2001: unresolved external symbol __imp__MapWindowPoints@16
+DuiLib.lib(UITreeView.obj) : error LNK2001: unresolved external symbol __imp__IntersectRect@12
+DuiLib.lib(UIEdit.obj) : error LNK2001: unresolved external symbol __imp__IntersectRect@12
+DuiLib.lib(UIDateTime.obj) : error LNK2001: unresolved external symbol __imp__IntersectRect@12
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__IntersectRect@12
+DuiLib.lib(UIRender.obj) : error LNK2001: unresolved external symbol __imp__IntersectRect@12
+DuiLib.lib(UIRichEdit.obj) : error LNK2001: unresolved external symbol __imp__IntersectRect@12
+DuiLib.lib(UICombo.obj) : error LNK2001: unresolved external symbol __imp__IntersectRect@12
+UIMenu.obj : error LNK2001: unresolved external symbol __imp__IntersectRect@12
+DuiLib.lib(UIControl.obj) : error LNK2001: unresolved external symbol __imp__IntersectRect@12
+DuiLib.lib(UIContainer.obj) : error LNK2001: unresolved external symbol __imp__IntersectRect@12
+DuiLib.lib(UIList.obj) : error LNK2001: unresolved external symbol __imp__IntersectRect@12
+DuiLib.lib(UIRichEdit.obj) : error LNK2001: unresolved external symbol __imp__GetWindowLongA@8
+DuiLib.lib(WndShadow.obj) : error LNK2001: unresolved external symbol __imp__GetWindowLongA@8
+UIMenu.obj : error LNK2001: unresolved external symbol __imp__GetWindowLongA@8
+DuiLib.lib(WinImplBase.obj) : error LNK2001: unresolved external symbol __imp__GetWindowLongA@8
+DuiLib.lib(UIBase.obj) : error LNK2001: unresolved external symbol __imp__GetWindowLongA@8
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__GetWindowLongA@8
+DuiLib.lib(WndShadow.obj) : error LNK2001: unresolved external symbol __imp__SetWindowLongA@12
+UIMenu.obj : error LNK2001: unresolved external symbol __imp__SetWindowLongA@12
+DuiLib.lib(WinImplBase.obj) : error LNK2001: unresolved external symbol __imp__SetWindowLongA@12
+DuiLib.lib(UIBase.obj) : error LNK2001: unresolved external symbol __imp__SetWindowLongA@12
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__SetWindowLongA@12
+DuiLib.lib(UIWebBrowser.obj) : error LNK2001: unresolved external symbol __imp__GetParent@4
+DuiLib.lib(WndShadow.obj) : error LNK2001: unresolved external symbol __imp__GetParent@4
+UIMenu.obj : error LNK2001: unresolved external symbol __imp__GetParent@4
+DuiLib.lib(UIBase.obj) : error LNK2001: unresolved external symbol __imp__GetParent@4
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__GetParent@4
+DuiLib.lib(UICombo.obj) : error LNK2001: unresolved external symbol __imp__GetParent@4
+UIMenu.obj : error LNK2019: unresolved external symbol __imp__MonitorFromWindow@8 referenced in function "public: virtual long __thiscall DuiLib::CMenuWnd::HandleMessage(unsigned int,unsigned int,long)" (?HandleMessage@CMenuWnd@DuiLib@@UAEJIIJ@Z)
+DuiLib.lib(WinImplBase.obj) : error LNK2001: unresolved external symbol __imp__MonitorFromWindow@8
+DuiLib.lib(UIBase.obj) : error LNK2001: unresolved external symbol __imp__MonitorFromWindow@8
+DuiLib.lib(UICombo.obj) : error LNK2001: unresolved external symbol __imp__MonitorFromWindow@8
+UIMenu.obj : error LNK2019: unresolved external symbol __imp__GetMonitorInfoA@8 referenced in function "public: virtual long __thiscall DuiLib::CMenuWnd::HandleMessage(unsigned int,unsigned int,long)" (?HandleMessage@CMenuWnd@DuiLib@@UAEJIIJ@Z)
+DuiLib.lib(WinImplBase.obj) : error LNK2001: unresolved external symbol __imp__GetMonitorInfoA@8
+DuiLib.lib(UIBase.obj) : error LNK2001: unresolved external symbol __imp__GetMonitorInfoA@8
+DuiLib.lib(UICombo.obj) : error LNK2001: unresolved external symbol __imp__GetMonitorInfoA@8
+UIMenu.obj : error LNK2019: unresolved external symbol __CrtDbgReport referenced in function "void * __cdecl std::_Allocate_manually_vector_aligned<struct std::_Default_allocate_traits>(unsigned int)" (??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPAXI@Z)
+DuiLib.lib(UIDateTime.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+DuiLib.lib(UIActiveX.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+DuiLib.lib(UIWebBrowser.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+DuiLib.lib(WndShadow.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+DuiLib.lib(UICombo.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+DuiLib.lib(UILabel.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+DuiLib.lib(UIEdit.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+DuiLib.lib(UISlider.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+DuiLib.lib(UIDlgBuilder.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+DuiLib.lib(UIRender.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+DuiLib.lib(UIRichEdit.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+DuiLib.lib(UITileLayout.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+DuiLib.lib(UIContainer.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+DuiLib.lib(UIList.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+DuiLib.lib(Utils.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+UIMenu.obj : error LNK2001: unresolved external symbol __CrtDbgReportW
+DuiLib.lib(WinImplBase.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+DuiLib.lib(UIBase.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+DuiLib.lib(UIControl.obj) : error LNK2001: unresolved external symbol __CrtDbgReportW
+main.obj : error LNK2019: unresolved external symbol __imp__CoInitialize@4 referenced in function _WinMain@16
+DuiLib.lib(UIActiveX.obj) : error LNK2001: unresolved external symbol __imp__CoInitialize@4
+DuiLib.lib(WinImplBase.obj) : error LNK2019: unresolved external symbol __imp__CreateRoundRectRgn@24 referenced in function "public: virtual long __thiscall DuiLib::WindowImplBase::OnSize(unsigned int,unsigned int,long,int &)" (?OnSize@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+DuiLib.lib(UIRender.obj) : error LNK2001: unresolved external symbol __imp__CreateRoundRectRgn@24
+DuiLib.lib(UIEdit.obj) : error LNK2019: unresolved external symbol __imp__DeleteObject@4 referenced in function "public: long __thiscall DuiLib::CEditWnd::OnEditChanged(unsigned int,unsigned int,long,int &)" (?OnEditChanged@CEditWnd@DuiLib@@QAEJIIJAAH@Z)
+DuiLib.lib(UIDateTime.obj) : error LNK2001: unresolved external symbol __imp__DeleteObject@4
+DuiLib.lib(WndShadow.obj) : error LNK2001: unresolved external symbol __imp__DeleteObject@4
+DuiLib.lib(WinImplBase.obj) : error LNK2001: unresolved external symbol __imp__DeleteObject@4
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__DeleteObject@4
+DuiLib.lib(UIRender.obj) : error LNK2001: unresolved external symbol __imp__DeleteObject@4
+DuiLib.lib(UIRichEdit.obj) : error LNK2001: unresolved external symbol __imp__DeleteObject@4
+DuiLib.lib(WinImplBase.obj) : error LNK2019: unresolved external symbol __imp__IsIconic@4 referenced in function "public: virtual long __thiscall DuiLib::WindowImplBase::OnNcActivate(unsigned int,unsigned int,long,int &)" (?OnNcActivate@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+DuiLib.lib(UIBase.obj) : error LNK2001: unresolved external symbol __imp__IsIconic@4
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__IsIconic@4
+DuiLib.lib(WinImplBase.obj) : error LNK2019: unresolved external symbol __imp__SetWindowRgn@12 referenced in function "public: virtual long __thiscall DuiLib::WindowImplBase::OnSize(unsigned int,unsigned int,long,int &)" (?OnSize@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+DuiLib.lib(WinImplBase.obj) : error LNK2019: unresolved external symbol __imp__MessageBoxA@16 referenced in function "public: virtual long __thiscall DuiLib::WindowImplBase::OnCreate(unsigned int,unsigned int,long,int &)" (?OnCreate@WindowImplBase@DuiLib@@UAEJIIJAAH@Z)
+DuiLib.lib(UICombo.obj) : error LNK2019: unresolved external symbol __imp__ScreenToClient@8 referenced in function "public: virtual void __thiscall DuiLib::CComboUI::SetAttribute(char const *,char const *)" (?SetAttribute@CComboUI@DuiLib@@UAEXPBD0@Z)
+DuiLib.lib(UIActiveX.obj) : error LNK2001: unresolved external symbol __imp__ScreenToClient@8
+DuiLib.lib(WinImplBase.obj) : error LNK2001: unresolved external symbol __imp__ScreenToClient@8
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__ScreenToClient@8
+DuiLib.lib(UIScrollBar.obj) : error LNK2001: unresolved external symbol __imp__ScreenToClient@8
+DuiLib.lib(UIRichEdit.obj) : error LNK2001: unresolved external symbol __imp__ScreenToClient@8
+DuiLib.lib(UIBase.obj) : error LNK2019: unresolved external symbol __imp__wsprintfA referenced in function "char const * __cdecl DuiLib::DUI__TraceMsg(unsigned int)" (?DUI__TraceMsg@DuiLib@@YAPBDI@Z)
+DuiLib.lib(UIBase.obj) : error LNK2019: unresolved external symbol __imp__GetMessageA@16 referenced in function "public: unsigned int __thiscall DuiLib::CWindowWnd::ShowModal(void)" (?ShowModal@CWindowWnd@DuiLib@@QAEIXZ)
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__GetMessageA@16
+DuiLib.lib(UIBase.obj) : error LNK2019: unresolved external symbol __imp__TranslateMessage@4 referenced in function "public: unsigned int __thiscall DuiLib::CWindowWnd::ShowModal(void)" (?ShowModal@CWindowWnd@DuiLib@@QAEIXZ)
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__TranslateMessage@4
+DuiLib.lib(UIBase.obj) : error LNK2019: unresolved external symbol __imp__DispatchMessageA@4 referenced in function "public: unsigned int __thiscall DuiLib::CWindowWnd::ShowModal(void)" (?ShowModal@CWindowWnd@DuiLib@@QAEIXZ)
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__DispatchMessageA@4
+DuiLib.lib(UIBase.obj) : error LNK2019: unresolved external symbol __imp__PostMessageA@16 referenced in function "public: long __thiscall DuiLib::CWindowWnd::PostMessageA(unsigned int,unsigned int,long)" (?PostMessageA@CWindowWnd@DuiLib@@QAEJIIJ@Z)
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__PostMessageA@16
+DuiLib.lib(WndShadow.obj) : error LNK2001: unresolved external symbol __imp__PostMessageA@16
+DuiLib.lib(WndShadow.obj) : error LNK2001: unresolved external symbol __imp__DefWindowProcA@16
+DuiLib.lib(UIBase.obj) : error LNK2001: unresolved external symbol __imp__DefWindowProcA@16
+DuiLib.lib(UIEdit.obj) : error LNK2001: unresolved external symbol __imp__DefWindowProcA@16
+DuiLib.lib(UIDateTime.obj) : error LNK2001: unresolved external symbol __imp__DefWindowProcA@16
+DuiLib.lib(UIActiveX.obj) : error LNK2001: unresolved external symbol __imp__DefWindowProcA@16
+DuiLib.lib(UIBase.obj) : error LNK2019: unresolved external symbol __imp__CallWindowProcA@20 referenced in function "protected: virtual long __thiscall DuiLib::CWindowWnd::HandleMessage(unsigned int,unsigned int,long)" (?HandleMessage@CWindowWnd@DuiLib@@MAEJIIJ@Z)
+DuiLib.lib(UIBase.obj) : error LNK2019: unresolved external symbol __imp__RegisterClassA@4 referenced in function "public: bool __thiscall DuiLib::CWindowWnd::RegisterWindowClass(void)" (?RegisterWindowClass@CWindowWnd@DuiLib@@QAE_NXZ)
+DuiLib.lib(UIBase.obj) : error LNK2019: unresolved external symbol __imp__RegisterClassExA@4 referenced in function "public: bool __thiscall DuiLib::CWindowWnd::RegisterSuperclass(void)" (?RegisterSuperclass@CWindowWnd@DuiLib@@QAE_NXZ)
+DuiLib.lib(WndShadow.obj) : error LNK2001: unresolved external symbol __imp__RegisterClassExA@4
+DuiLib.lib(UIBase.obj) : error LNK2019: unresolved external symbol __imp__GetClassInfoExA@12 referenced in function "public: bool __thiscall DuiLib::CWindowWnd::RegisterSuperclass(void)" (?RegisterSuperclass@CWindowWnd@DuiLib@@QAE_NXZ)
+DuiLib.lib(UIBase.obj) : error LNK2019: unresolved external symbol __imp__CreateWindowExA@48 referenced in function "public: struct HWND__ * __thiscall DuiLib::CWindowWnd::Create(struct HWND__ *,char const *,unsigned long,unsigned long,int,int,int,int,struct HMENU__ *)" (?Create@CWindowWnd@DuiLib@@QAEPAUHWND__@@PAU3@PBDKKHHHHPAUHMENU__@@@Z)
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__CreateWindowExA@48
+DuiLib.lib(WndShadow.obj) : error LNK2001: unresolved external symbol __imp__CreateWindowExA@48
+DuiLib.lib(UIBase.obj) : error LNK2019: unresolved external symbol __imp__IsWindow@4 referenced in function "public: struct HWND__ * __thiscall DuiLib::CWindowWnd::Subclass(struct HWND__ *)" (?Subclass@CWindowWnd@DuiLib@@QAEPAUHWND__@@PAU3@@Z)
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__IsWindow@4
+DuiLib.lib(WndShadow.obj) : error LNK2001: unresolved external symbol __imp__IsWindow@4
+DuiLib.lib(UIDateTime.obj) : error LNK2001: unresolved external symbol __imp__SetFocus@4
+DuiLib.lib(UIActiveX.obj) : error LNK2001: unresolved external symbol __imp__SetFocus@4
+DuiLib.lib(UIBase.obj) : error LNK2001: unresolved external symbol __imp__SetFocus@4
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__SetFocus@4
+DuiLib.lib(UIRichEdit.obj) : error LNK2001: unresolved external symbol __imp__SetFocus@4
+DuiLib.lib(UIEdit.obj) : error LNK2001: unresolved external symbol __imp__SetFocus@4
+DuiLib.lib(UIBase.obj) : error LNK2019: unresolved external symbol __imp__EnableWindow@8 referenced in function "public: unsigned int __thiscall DuiLib::CWindowWnd::ShowModal(void)" (?ShowModal@CWindowWnd@DuiLib@@QAEIXZ)
+DuiLib.lib(UIEdit.obj) : error LNK2001: unresolved external symbol __imp__EnableWindow@8
+DuiLib.lib(UIBase.obj) : error LNK2019: unresolved external symbol __imp__GetSystemMetrics@4 referenced in function "public: void __thiscall DuiLib::CWindowWnd::SetIcon(unsigned int)" (?SetIcon@CWindowWnd@DuiLib@@QAEXI@Z)
+DuiLib.lib(UIBase.obj) : error LNK2019: unresolved external symbol __imp__GetMenu@4 referenced in function "public: void __thiscall DuiLib::CWindowWnd::ResizeClient(int,int)" (?ResizeClient@CWindowWnd@DuiLib@@QAEXHH@Z)
+DuiLib.lib(UIBase.obj) : error LNK2019: unresolved external symbol __imp__SetPropA@12 referenced in function "protected: static long __stdcall DuiLib::CWindowWnd::__ControlProc(struct HWND__ *,unsigned int,unsigned int,long)" (?__ControlProc@CWindowWnd@DuiLib@@KGJPAUHWND__@@IIJ@Z)
+DuiLib.lib(UIBase.obj) : error LNK2019: unresolved external symbol __imp__GetPropA@8 referenced in function "protected: static long __stdcall DuiLib::CWindowWnd::__ControlProc(struct HWND__ *,unsigned int,unsigned int,long)" (?__ControlProc@CWindowWnd@DuiLib@@KGJPAUHWND__@@IIJ@Z)
+DuiLib.lib(UIBase.obj) : error LNK2019: unresolved external symbol __imp__AdjustWindowRectEx@16 referenced in function "public: void __thiscall DuiLib::CWindowWnd::ResizeClient(int,int)" (?ResizeClient@CWindowWnd@DuiLib@@QAEXHH@Z)
+DuiLib.lib(UIBase.obj) : error LNK2019: unresolved external symbol __imp__GetWindow@8 referenced in function "public: unsigned int __thiscall DuiLib::CWindowWnd::ShowModal(void)" (?ShowModal@CWindowWnd@DuiLib@@QAEIXZ)
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__GetWindow@8
+DuiLib.lib(UIButton.obj) : error LNK2001: unresolved external symbol __imp__LoadCursorA@8
+DuiLib.lib(UISlider.obj) : error LNK2001: unresolved external symbol __imp__LoadCursorA@8
+DuiLib.lib(UIDateTime.obj) : error LNK2001: unresolved external symbol __imp__LoadCursorA@8
+DuiLib.lib(WndShadow.obj) : error LNK2001: unresolved external symbol __imp__LoadCursorA@8
+DuiLib.lib(Utils.obj) : error LNK2001: unresolved external symbol __imp__LoadCursorA@8
+DuiLib.lib(UIHorizontalLayout.obj) : error LNK2001: unresolved external symbol __imp__LoadCursorA@8
+DuiLib.lib(UIText.obj) : error LNK2001: unresolved external symbol __imp__LoadCursorA@8
+DuiLib.lib(UIEdit.obj) : error LNK2001: unresolved external symbol __imp__LoadCursorA@8
+DuiLib.lib(UIBase.obj) : error LNK2001: unresolved external symbol __imp__LoadCursorA@8
+DuiLib.lib(UIControl.obj) : error LNK2001: unresolved external symbol __imp__LoadCursorA@8
+DuiLib.lib(UIVerticalLayout.obj) : error LNK2001: unresolved external symbol __imp__LoadCursorA@8
+DuiLib.lib(UIList.obj) : error LNK2001: unresolved external symbol __imp__LoadCursorA@8
+DuiLib.lib(UIBase.obj) : error LNK2019: unresolved external symbol __imp__LoadImageA@24 referenced in function "public: void __thiscall DuiLib::CWindowWnd::SetIcon(unsigned int)" (?SetIcon@CWindowWnd@DuiLib@@QAEXI@Z)
+DuiLib.lib(UIButton.obj) : error LNK2019: unresolved external symbol __imp__CharNextA@4 referenced in function "public: virtual void __thiscall DuiLib::CButtonUI::PaintStatusImage(struct HDC__ *)" (?PaintStatusImage@CButtonUI@DuiLib@@UAEXPAUHDC__@@@Z)
+DuiLib.lib(UIOption.obj) : error LNK2001: unresolved external symbol __imp__CharNextA@4
+DuiLib.lib(UICombo.obj) : error LNK2001: unresolved external symbol __imp__CharNextA@4
+DuiLib.lib(UITreeView.obj) : error LNK2001: unresolved external symbol __imp__CharNextA@4
+DuiLib.lib(UILabel.obj) : error LNK2001: unresolved external symbol __imp__CharNextA@4
+DuiLib.lib(UIEdit.obj) : error LNK2001: unresolved external symbol __imp__CharNextA@4
+DuiLib.lib(UIDlgBuilder.obj) : error LNK2001: unresolved external symbol __imp__CharNextA@4
+DuiLib.lib(UIRender.obj) : error LNK2001: unresolved external symbol __imp__CharNextA@4
+DuiLib.lib(UIScrollBar.obj) : error LNK2001: unresolved external symbol __imp__CharNextA@4
+DuiLib.lib(UIRichEdit.obj) : error LNK2001: unresolved external symbol __imp__CharNextA@4
+DuiLib.lib(UIControl.obj) : error LNK2001: unresolved external symbol __imp__CharNextA@4
+DuiLib.lib(UIList.obj) : error LNK2001: unresolved external symbol __imp__CharNextA@4
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__CharNextA@4
+DuiLib.lib(UIMarkup.obj) : error LNK2001: unresolved external symbol __imp__CharNextA@4
+DuiLib.lib(UIButton.obj) : error LNK2019: unresolved external symbol __imp__SetCursor@4 referenced in function "public: virtual void __thiscall DuiLib::CButtonUI::PaintText(struct HDC__ *)" (?PaintText@CButtonUI@DuiLib@@UAEXPAUHDC__@@@Z)
+DuiLib.lib(UISlider.obj) : error LNK2001: unresolved external symbol __imp__SetCursor@4
+DuiLib.lib(UIDateTime.obj) : error LNK2001: unresolved external symbol __imp__SetCursor@4
+DuiLib.lib(UIHorizontalLayout.obj) : error LNK2001: unresolved external symbol __imp__SetCursor@4
+DuiLib.lib(UIRichEdit.obj) : error LNK2001: unresolved external symbol __imp__SetCursor@4
+DuiLib.lib(UIText.obj) : error LNK2001: unresolved external symbol __imp__SetCursor@4
+DuiLib.lib(UIEdit.obj) : error LNK2001: unresolved external symbol __imp__SetCursor@4
+DuiLib.lib(UIControl.obj) : error LNK2001: unresolved external symbol __imp__SetCursor@4
+DuiLib.lib(UIVerticalLayout.obj) : error LNK2001: unresolved external symbol __imp__SetCursor@4
+DuiLib.lib(UIList.obj) : error LNK2001: unresolved external symbol __imp__SetCursor@4
+DuiLib.lib(Utils.obj) : error LNK2001: unresolved external symbol __imp__SetCursor@4
+DuiLib.lib(UIDateTime.obj) : error LNK2001: unresolved external symbol __imp__IsRectEmpty@4
+DuiLib.lib(UIControl.obj) : error LNK2001: unresolved external symbol __imp__IsRectEmpty@4
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__IsRectEmpty@4
+DuiLib.lib(UIRender.obj) : error LNK2001: unresolved external symbol __imp__IsRectEmpty@4
+DuiLib.lib(UIEdit.obj) : error LNK2001: unresolved external symbol __imp__IsRectEmpty@4
+DuiLib.lib(UIButton.obj) : error LNK2019: unresolved external symbol __imp__PtInRect@12 referenced in function __unwindfunclet$??0CButtonUI@DuiLib@@QAE@XZ$0
+DuiLib.lib(UISlider.obj) : error LNK2001: unresolved external symbol __imp__PtInRect@12
+DuiLib.lib(UIActiveX.obj) : error LNK2001: unresolved external symbol __imp__PtInRect@12
+DuiLib.lib(UIRichEdit.obj) : error LNK2001: unresolved external symbol __imp__PtInRect@12
+DuiLib.lib(UICombo.obj) : error LNK2001: unresolved external symbol __imp__PtInRect@12
+DuiLib.lib(UIText.obj) : error LNK2001: unresolved external symbol __imp__PtInRect@12
+DuiLib.lib(UIEdit.obj) : error LNK2001: unresolved external symbol __imp__PtInRect@12
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__PtInRect@12
+DuiLib.lib(UIRender.obj) : error LNK2001: unresolved external symbol __imp__PtInRect@12
+DuiLib.lib(UIScrollBar.obj) : error LNK2001: unresolved external symbol __imp__PtInRect@12
+DuiLib.lib(UIHorizontalLayout.obj) : error LNK2001: unresolved external symbol __imp__PtInRect@12
+DuiLib.lib(UIControl.obj) : error LNK2001: unresolved external symbol __imp__PtInRect@12
+DuiLib.lib(UIContainer.obj) : error LNK2001: unresolved external symbol __imp__PtInRect@12
+DuiLib.lib(UIVerticalLayout.obj) : error LNK2001: unresolved external symbol __imp__PtInRect@12
+DuiLib.lib(UIList.obj) : error LNK2001: unresolved external symbol __imp__PtInRect@12
+DuiLib.lib(Utils.obj) : error LNK2019: unresolved external symbol __imp__wvsprintfA@12 referenced in function "public: int __cdecl DuiLib::CDuiString::SmallFormat(char const *,...)" (?SmallFormat@CDuiString@DuiLib@@QAAHPBDZZ)
+DuiLib.lib(Utils.obj) : error LNK2019: unresolved external symbol __imp__InflateRect@12 referenced in function "public: void __thiscall DuiLib::CDuiRect::Inflate(int,int)" (?Inflate@CDuiRect@DuiLib@@QAEXHH@Z)
+DuiLib.lib(Utils.obj) : error LNK2019: unresolved external symbol __imp__UnionRect@12 referenced in function "public: void __thiscall DuiLib::CDuiRect::Union(class DuiLib::CDuiRect &)" (?Union@CDuiRect@DuiLib@@QAEXAAV12@@Z)
+DuiLib.lib(UIManager.obj) : error LNK2001: unresolved external symbol __imp__UnionRect@12
+DuiLib.lib(Utils.obj) : error LNK2019: unresolved external symbol __imp__OffsetRect@12 referenced in function "public: void __thiscall DuiLib::CDuiRect::ResetOffset(void)" (?ResetOffset@CDuiRect@DuiLib@@QAEXXZ)
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__BitBlt@36 referenced in function "public: bool __thiscall DuiLib::CPaintManagerUI::MessageHandler(unsigned int,unsigned int,long,long &)" (?MessageHandler@CPaintManagerUI@DuiLib@@QAE_NIIJAAJ@Z)
+DuiLib.lib(UIRender.obj) : error LNK2001: unresolved external symbol __imp__BitBlt@36
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__CreateCompatibleBitmap@12 referenced in function "public: bool __thiscall DuiLib::CPaintManagerUI::MessageHandler(unsigned int,unsigned int,long,long &)" (?MessageHandler@CPaintManagerUI@DuiLib@@QAE_NIIJAAJ@Z)
+DuiLib.lib(UIRender.obj) : error LNK2001: unresolved external symbol __imp__CreateCompatibleBitmap@12
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__CreateCompatibleDC@4 referenced in function "public: bool __thiscall DuiLib::CPaintManagerUI::MessageHandler(unsigned int,unsigned int,long,long &)" (?MessageHandler@CPaintManagerUI@DuiLib@@QAE_NIIJAAJ@Z)
+DuiLib.lib(UIRender.obj) : error LNK2001: unresolved external symbol __imp__CreateCompatibleDC@4
+DuiLib.lib(WndShadow.obj) : error LNK2001: unresolved external symbol __imp__CreateCompatibleDC@4
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__CreateFontIndirectA@4 referenced in function "public: __thiscall DuiLib::CPaintManagerUI::CPaintManagerUI(void)" (??0CPaintManagerUI@DuiLib@@QAE@XZ)
+DuiLib.lib(UIRichEdit.obj) : error LNK2001: unresolved external symbol __imp__CreateFontIndirectA@4
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__CreatePen@12 referenced in function "public: __thiscall DuiLib::CPaintManagerUI::CPaintManagerUI(void)" (??0CPaintManagerUI@DuiLib@@QAE@XZ)
+DuiLib.lib(UIRender.obj) : error LNK2001: unresolved external symbol __imp__CreatePen@12
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__DeleteDC@4 referenced in function "public: __thiscall DuiLib::CPaintManagerUI::~CPaintManagerUI(void)" (??1CPaintManagerUI@DuiLib@@QAE@XZ)
+DuiLib.lib(UIRender.obj) : error LNK2001: unresolved external symbol __imp__DeleteDC@4
+DuiLib.lib(WndShadow.obj) : error LNK2001: unresolved external symbol __imp__DeleteDC@4
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__GetStockObject@4 referenced in function "public: __thiscall DuiLib::CPaintManagerUI::CPaintManagerUI(void)" (??0CPaintManagerUI@DuiLib@@QAE@XZ)
+DuiLib.lib(UIRender.obj) : error LNK2001: unresolved external symbol __imp__GetStockObject@4
+DuiLib.lib(UIRichEdit.obj) : error LNK2001: unresolved external symbol __imp__GetStockObject@4
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__Rectangle@20 referenced in function "public: bool __thiscall DuiLib::CPaintManagerUI::MessageHandler(unsigned int,unsigned int,long,long &)" (?MessageHandler@CPaintManagerUI@DuiLib@@QAE_NIIJAAJ@Z)
+DuiLib.lib(UIRender.obj) : error LNK2001: unresolved external symbol __imp__Rectangle@20
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__RestoreDC@8 referenced in function "public: bool __thiscall DuiLib::CPaintManagerUI::MessageHandler(unsigned int,unsigned int,long,long &)" (?MessageHandler@CPaintManagerUI@DuiLib@@QAE_NIIJAAJ@Z)
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__SaveDC@4 referenced in function "public: bool __thiscall DuiLib::CPaintManagerUI::MessageHandler(unsigned int,unsigned int,long,long &)" (?MessageHandler@CPaintManagerUI@DuiLib@@QAE_NIIJAAJ@Z)
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__SelectObject@8 referenced in function "public: struct DuiLib::tagTFontInfo * __thiscall DuiLib::CPaintManagerUI::GetDefaultFontInfo(void)" (?GetDefaultFontInfo@CPaintManagerUI@DuiLib@@QAEPAUtagTFontInfo@2@XZ)
+DuiLib.lib(UIRender.obj) : error LNK2001: unresolved external symbol __imp__SelectObject@8
+DuiLib.lib(WndShadow.obj) : error LNK2001: unresolved external symbol __imp__SelectObject@8
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__GetTextMetricsA@8 referenced in function "public: struct DuiLib::tagTFontInfo * __thiscall DuiLib::CPaintManagerUI::GetDefaultFontInfo(void)" (?GetDefaultFontInfo@CPaintManagerUI@DuiLib@@QAEPAUtagTFontInfo@2@XZ)
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__GetObjectA@12 referenced in function "public: __thiscall DuiLib::CPaintManagerUI::CPaintManagerUI(void)" (??0CPaintManagerUI@DuiLib@@QAE@XZ)
+DuiLib.lib(UIRichEdit.obj) : error LNK2001: unresolved external symbol __imp__GetObjectA@12
+DuiLib.lib(UILabel.obj) : error LNK2001: unresolved external symbol __imp__GetObjectA@12
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__SetWindowOrgEx@16 referenced in function "public: bool __thiscall DuiLib::CPaintManagerUI::MessageHandler(unsigned int,unsigned int,long,long &)" (?MessageHandler@CPaintManagerUI@DuiLib@@QAE_NIIJAAJ@Z)
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__DestroyWindow@4 referenced in function "public: __thiscall DuiLib::CPaintManagerUI::~CPaintManagerUI(void)" (??1CPaintManagerUI@DuiLib@@QAE@XZ)
+DuiLib.lib(UIActiveX.obj) : error LNK2001: unresolved external symbol __imp__DestroyWindow@4
+DuiLib.lib(WndShadow.obj) : error LNK2001: unresolved external symbol __imp__DestroyWindow@4
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__IsWindowVisible@4 referenced in function "public: bool __thiscall DuiLib::CPaintManagerUI::MessageHandler(unsigned int,unsigned int,long,long &)" (?MessageHandler@CPaintManagerUI@DuiLib@@QAE_NIIJAAJ@Z)
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__GetActiveWindow@0 referenced in function "public: bool __thiscall DuiLib::CPaintManagerUI::MessageHandler(unsigned int,unsigned int,long,long &)" (?MessageHandler@CPaintManagerUI@DuiLib@@QAE_NIIJAAJ@Z)
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__GetFocus@0 referenced in function "public: void __thiscall DuiLib::CPaintManagerUI::SetFocus(class DuiLib::CControlUI *,bool)" (?SetFocus@CPaintManagerUI@DuiLib@@QAEXPAVCControlUI@2@_N@Z)
+DuiLib.lib(UIRichEdit.obj) : error LNK2001: unresolved external symbol __imp__GetFocus@0
+DuiLib.lib(UICombo.obj) : error LNK2001: unresolved external symbol __imp__GetFocus@0
+DuiLib.lib(UIWebBrowser.obj) : error LNK2001: unresolved external symbol __imp__GetFocus@0
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__GetKeyState@4 referenced in function "public: bool __thiscall DuiLib::CPaintManagerUI::PreMessageHandler(unsigned int,unsigned int,long,long &)" (?PreMessageHandler@CPaintManagerUI@DuiLib@@QAE_NIIJAAJ@Z)
+DuiLib.lib(UIRichEdit.obj) : error LNK2001: unresolved external symbol __imp__GetKeyState@4
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__SetCapture@4 referenced in function "public: void __thiscall DuiLib::CPaintManagerUI::SetCapture(void)" (?SetCapture@CPaintManagerUI@DuiLib@@QAEXXZ)
+DuiLib.lib(UIActiveX.obj) : error LNK2001: unresolved external symbol __imp__SetCapture@4
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__ReleaseCapture@0 referenced in function "public: void __thiscall DuiLib::CPaintManagerUI::ReleaseCapture(void)" (?ReleaseCapture@CPaintManagerUI@DuiLib@@QAEXXZ)
+DuiLib.lib(UIActiveX.obj) : error LNK2001: unresolved external symbol __imp__ReleaseCapture@0
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__SetTimer@16 referenced in function "public: void __thiscall DuiLib::CPaintManagerUI::SetLayered(bool)" (?SetLayered@CPaintManagerUI@DuiLib@@QAEX_N@Z)
+DuiLib.lib(UIEdit.obj) : error LNK2001: unresolved external symbol __imp__SetTimer@16
+DuiLib.lib(UIActiveX.obj) : error LNK2001: unresolved external symbol __imp__SetTimer@16
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__KillTimer@8 referenced in function "public: void __thiscall DuiLib::CPaintManagerUI::SetLayered(bool)" (?SetLayered@CPaintManagerUI@DuiLib@@QAEX_N@Z)
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__GetDC@4 referenced in function "public: void __thiscall DuiLib::CPaintManagerUI::Init(struct HWND__ *,char const *)" (?Init@CPaintManagerUI@DuiLib@@QAEXPAUHWND__@@PBD@Z)
+DuiLib.lib(UIActiveX.obj) : error LNK2001: unresolved external symbol __imp__GetDC@4
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__ReleaseDC@8 referenced in function "public: __thiscall DuiLib::CPaintManagerUI::~CPaintManagerUI(void)" (??1CPaintManagerUI@DuiLib@@QAE@XZ)
+DuiLib.lib(UIActiveX.obj) : error LNK2001: unresolved external symbol __imp__ReleaseDC@8
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__BeginPaint@8 referenced in function "public: bool __thiscall DuiLib::CPaintManagerUI::MessageHandler(unsigned int,unsigned int,long,long &)" (?MessageHandler@CPaintManagerUI@DuiLib@@QAE_NIIJAAJ@Z)
+DuiLib.lib(UIActiveX.obj) : error LNK2001: unresolved external symbol __imp__BeginPaint@8
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__EndPaint@8 referenced in function "public: bool __thiscall DuiLib::CPaintManagerUI::MessageHandler(unsigned int,unsigned int,long,long &)" (?MessageHandler@CPaintManagerUI@DuiLib@@QAE_NIIJAAJ@Z)
+DuiLib.lib(UIActiveX.obj) : error LNK2001: unresolved external symbol __imp__EndPaint@8
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__GetUpdateRect@12 referenced in function "public: bool __thiscall DuiLib::CPaintManagerUI::MessageHandler(unsigned int,unsigned int,long,long &)" (?MessageHandler@CPaintManagerUI@DuiLib@@QAE_NIIJAAJ@Z)
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__InvalidateRect@12 referenced in function "public: void __thiscall DuiLib::CPaintManagerUI::Invalidate(void)" (?Invalidate@CPaintManagerUI@DuiLib@@QAEXXZ)
+DuiLib.lib(UIEdit.obj) : error LNK2001: unresolved external symbol __imp__InvalidateRect@12
+DuiLib.lib(UIActiveX.obj) : error LNK2001: unresolved external symbol __imp__InvalidateRect@12
+DuiLib.lib(UIManager.obj) : error LNK2019: unresolved external symbol __imp__GetCursorPos@4 referenced in function "public: bool __thiscall DuiLib::CPaintManagerUI::MessageHandler(unsigned int,unsigned int,long,long &)" (?MessageHandler@CPaintManagerUI@DuiLib@@QAE_NIIJAAJ@Z)
+DuiLib.lib(UIScrollBar.obj) : error LNK2001: unresolved external symbol __imp__GetCursorPos@4
+DuiLib.lib(UIRichEdit.obj) : error LNK2001: unresolved external symbol __imp__GetCursorPos@4
+DuiLib.lib(UICombo.obj) : error LNK2001: unresolved external symbol __imp__GetCursorPos@4
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__CombineRgn@16 referenced in function "public: static void __cdecl DuiLib::CRenderClip::GenerateClip(struct HDC__ *,struct tagRECT,class DuiLib::CRenderClip &)" (?GenerateClip@CRenderClip@DuiLib@@SAXPAUHDC__@@UtagRECT@@AAV12@@Z)
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__CreatePenIndirect@4 referenced in function "public: static void __cdecl DuiLib::CRenderEngine::DrawLine(struct HDC__ *,struct tagRECT const &,int,unsigned long,int)" (?DrawLine@CRenderEngine@DuiLib@@SAXPAUHDC__@@ABUtagRECT@@HKH@Z)
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__CreateRectRgnIndirect@4 referenced in function "public: static void __cdecl DuiLib::CRenderClip::GenerateClip(struct HDC__ *,struct tagRECT,class DuiLib::CRenderClip &)" (?GenerateClip@CRenderClip@DuiLib@@SAXPAUHDC__@@UtagRECT@@AAV12@@Z)
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__CreateSolidBrush@4 referenced in function "public: static void __cdecl DuiLib::CRenderEngine::DrawGradient(struct HDC__ *,struct tagRECT const &,unsigned long,unsigned long,bool,int)" (?DrawGradient@CRenderEngine@DuiLib@@SAXPAUHDC__@@ABUtagRECT@@KK_NH@Z)
+DuiLib.lib(UIEdit.obj) : error LNK2001: unresolved external symbol __imp__CreateSolidBrush@4
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__GetCharABCWidthsA@16 referenced in function "public: static void __cdecl DuiLib::CRenderEngine::DrawHtmlText(struct HDC__ *,class DuiLib::CPaintManagerUI *,struct tagRECT &,char const *,unsigned long,struct tagRECT *,class DuiLib::CDuiString *,int &,int,unsigned int)" (?DrawHtmlText@CRenderEngine@DuiLib@@SAXPAUHDC__@@PAVCPaintManagerUI@2@AAUtagRECT@@PBDKPAU5@PAVCDuiString@2@AAHHI@Z)
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__GetClipBox@8 referenced in function "public: static void __cdecl DuiLib::CRenderClip::GenerateClip(struct HDC__ *,struct tagRECT,class DuiLib::CRenderClip &)" (?GenerateClip@CRenderClip@DuiLib@@SAXPAUHDC__@@UtagRECT@@AAV12@@Z)
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__GetObjectType@4 referenced in function "public: __thiscall DuiLib::CRenderClip::~CRenderClip(void)" (??1CRenderClip@DuiLib@@QAE@XZ)
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__GetTextExtentPoint32A@16 referenced in function "public: static void __cdecl DuiLib::CRenderEngine::DrawHtmlText(struct HDC__ *,class DuiLib::CPaintManagerUI *,struct tagRECT &,char const *,unsigned long,struct tagRECT *,class DuiLib::CDuiString *,int &,int,unsigned int)" (?DrawHtmlText@CRenderEngine@DuiLib@@SAXPAUHDC__@@PAVCPaintManagerUI@2@AAUtagRECT@@PBDKPAU5@PAVCDuiString@2@AAHHI@Z)
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__LineTo@12 referenced in function "public: static void __cdecl DuiLib::CRenderEngine::DrawLine(struct HDC__ *,struct tagRECT const &,int,unsigned long,int)" (?DrawLine@CRenderEngine@DuiLib@@SAXPAUHDC__@@ABUtagRECT@@HKH@Z)
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__RoundRect@28 referenced in function "public: static void __cdecl DuiLib::CRenderEngine::DrawRoundRect(struct HDC__ *,struct tagRECT const &,int,int,int,unsigned long,int)" (?DrawRoundRect@CRenderEngine@DuiLib@@SAXPAUHDC__@@ABUtagRECT@@HHHKH@Z)
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__SelectClipRgn@8 referenced in function "public: __thiscall DuiLib::CRenderClip::~CRenderClip(void)" (??1CRenderClip@DuiLib@@QAE@XZ)
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__ExtSelectClipRgn@12 referenced in function "public: static void __cdecl DuiLib::CRenderEngine::DrawHtmlText(struct HDC__ *,class DuiLib::CPaintManagerUI *,struct tagRECT &,char const *,unsigned long,struct tagRECT *,class DuiLib::CDuiString *,int &,int,unsigned int)" (?DrawHtmlText@CRenderEngine@DuiLib@@SAXPAUHDC__@@PAVCPaintManagerUI@2@AAUtagRECT@@PBDKPAU5@PAVCDuiString@2@AAHHI@Z)
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__SetBkColor@8 referenced in function "public: static void __cdecl DuiLib::CRenderEngine::DrawColor(struct HDC__ *,struct tagRECT const &,unsigned long)" (?DrawColor@CRenderEngine@DuiLib@@SAXPAUHDC__@@ABUtagRECT@@K@Z)
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__SetBkMode@8 referenced in function "public: static void __cdecl DuiLib::CRenderEngine::DrawTextA(struct HDC__ *,class DuiLib::CPaintManagerUI *,struct tagRECT &,char const *,unsigned long,int,unsigned int)" (?DrawTextA@CRenderEngine@DuiLib@@SAXPAUHDC__@@PAVCPaintManagerUI@2@AAUtagRECT@@PBDKHI@Z)
+DuiLib.lib(UIEdit.obj) : error LNK2001: unresolved external symbol __imp__SetBkMode@8
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__StretchBlt@44 referenced in function "public: static void __cdecl DuiLib::CRenderEngine::DrawImage(struct HDC__ *,struct HBITMAP__ *,struct tagRECT const &,struct tagRECT const &,struct tagRECT const &,struct tagRECT const &,bool,unsigned char,bool,bool,bool)" (?DrawImage@CRenderEngine@DuiLib@@SAXPAUHDC__@@PAUHBITMAP__@@ABUtagRECT@@222_NE333@Z)
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__SetStretchBltMode@8 referenced in function "public: static void __cdecl DuiLib::CRenderEngine::DrawImage(struct HDC__ *,struct HBITMAP__ *,struct tagRECT const &,struct tagRECT const &,struct tagRECT const &,struct tagRECT const &,bool,unsigned char,bool,bool,bool)" (?DrawImage@CRenderEngine@DuiLib@@SAXPAUHDC__@@PAUHBITMAP__@@ABUtagRECT@@222_NE333@Z)
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__SetTextColor@8 referenced in function "public: static void __cdecl DuiLib::CRenderEngine::DrawTextA(struct HDC__ *,class DuiLib::CPaintManagerUI *,struct tagRECT &,char const *,unsigned long,int,unsigned int)" (?DrawTextA@CRenderEngine@DuiLib@@SAXPAUHDC__@@PAVCPaintManagerUI@2@AAUtagRECT@@PBDKHI@Z)
+DuiLib.lib(UIEdit.obj) : error LNK2001: unresolved external symbol __imp__SetTextColor@8
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__CreateDIBSection@24 referenced in function "public: static struct HBITMAP__ * __cdecl DuiLib::CRenderEngine::CreateARGB32Bitmap(struct HDC__ *,int,int,unsigned long * *)" (?CreateARGB32Bitmap@CRenderEngine@DuiLib@@SAPAUHBITMAP__@@PAUHDC__@@HHPAPAK@Z)
+DuiLib.lib(WndShadow.obj) : error LNK2001: unresolved external symbol __imp__CreateDIBSection@24
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__MoveToEx@16 referenced in function "public: static void __cdecl DuiLib::CRenderEngine::DrawLine(struct HDC__ *,struct tagRECT const &,int,unsigned long,int)" (?DrawLine@CRenderEngine@DuiLib@@SAXPAUHDC__@@ABUtagRECT@@HKH@Z)
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__TextOutA@20 referenced in function "public: static void __cdecl DuiLib::CRenderEngine::DrawHtmlText(struct HDC__ *,class DuiLib::CPaintManagerUI *,struct tagRECT &,char const *,unsigned long,struct tagRECT *,class DuiLib::CDuiString *,int &,int,unsigned int)" (?DrawHtmlText@CRenderEngine@DuiLib@@SAXPAUHDC__@@PAVCPaintManagerUI@2@AAUtagRECT@@PBDKPAU5@PAVCDuiString@2@AAHHI@Z)
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__ExtTextOutA@32 referenced in function "public: static void __cdecl DuiLib::CRenderEngine::DrawColor(struct HDC__ *,struct tagRECT const &,unsigned long)" (?DrawColor@CRenderEngine@DuiLib@@SAXPAUHDC__@@ABUtagRECT@@K@Z)
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__GdiFlush@0 referenced in function "public: static struct HBITMAP__ * __cdecl DuiLib::CRenderEngine::GenerateBitmap(class DuiLib::CPaintManagerUI *,struct tagRECT,class DuiLib::CControlUI *,unsigned long)" (?GenerateBitmap@CRenderEngine@DuiLib@@SAPAUHBITMAP__@@PAVCPaintManagerUI@2@UtagRECT@@PAVCControlUI@2@K@Z)
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__CharPrevA@8 referenced in function "public: static void __cdecl DuiLib::CRenderEngine::DrawHtmlText(struct HDC__ *,class DuiLib::CPaintManagerUI *,struct tagRECT &,char const *,unsigned long,struct tagRECT *,class DuiLib::CDuiString *,int &,int,unsigned int)" (?DrawHtmlText@CRenderEngine@DuiLib@@SAXPAUHDC__@@PAVCPaintManagerUI@2@AAUtagRECT@@PBDKPAU5@PAVCDuiString@2@AAHHI@Z)
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__DrawTextA@20 referenced in function "public: static void __cdecl DuiLib::CRenderEngine::DrawTextA(struct HDC__ *,class DuiLib::CPaintManagerUI *,struct tagRECT &,char const *,unsigned long,int,unsigned int)" (?DrawTextA@CRenderEngine@DuiLib@@SAXPAUHDC__@@PAVCPaintManagerUI@2@AAUtagRECT@@PBDKHI@Z)
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__FillRect@12 referenced in function "public: static void __cdecl DuiLib::CRenderEngine::DrawGradient(struct HDC__ *,struct tagRECT const &,unsigned long,unsigned long,bool,int)" (?DrawGradient@CRenderEngine@DuiLib@@SAXPAUHDC__@@ABUtagRECT@@KK_NH@Z)
+DuiLib.lib(UIActiveX.obj) : error LNK2001: unresolved external symbol __imp__FillRect@12
+DuiLib.lib(UIRender.obj) : error LNK2019: unresolved external symbol __imp__SetRect@20 referenced in function "public: static void __cdecl DuiLib::CRenderEngine::DrawHtmlText(struct HDC__ *,class DuiLib::CPaintManagerUI *,struct tagRECT &,char const *,unsigned long,struct tagRECT *,class DuiLib::CDuiString *,int &,int,unsigned int)" (?DrawHtmlText@CRenderEngine@DuiLib@@SAXPAUHDC__@@PAVCPaintManagerUI@2@AAUtagRECT@@PBDKPAU5@PAVCDuiString@2@AAHHI@Z)
+DuiLib.lib(UIRichEdit.obj) : error LNK2019: unresolved external symbol __imp__GetDeviceCaps@8 referenced in function "public: void __thiscall DuiLib::CTxtWinHost::SetClientRect(struct tagRECT *)" (?SetClientRect@CTxtWinHost@DuiLib@@QAEXPAUtagRECT@@@Z)
+DuiLib.lib(UIActiveX.obj) : error LNK2001: unresolved external symbol __imp__GetDeviceCaps@8
+DuiLib.lib(UIRichEdit.obj) : error LNK2019: unresolved external symbol __imp__CreateCaret@16 referenced in function "public: virtual int __thiscall DuiLib::CTxtWinHost::TxCreateCaret(struct HBITMAP__ *,int,int)" (?TxCreateCaret@CTxtWinHost@DuiLib@@UAEHPAUHBITMAP__@@HH@Z)
+DuiLib.lib(UIRichEdit.obj) : error LNK2019: unresolved external symbol __imp__GetCaretBlinkTime@0 referenced in function "public: virtual void __thiscall DuiLib::CRichEditUI::DoInit(void)" (?DoInit@CRichEditUI@DuiLib@@UAEXXZ)
+DuiLib.lib(UIEdit.obj) : error LNK2001: unresolved external symbol __imp__GetCaretBlinkTime@0
+DuiLib.lib(UIRichEdit.obj) : error LNK2019: unresolved external symbol __imp__HideCaret@4 referenced in function "public: virtual int __thiscall DuiLib::CTxtWinHost::TxShowCaret(int)" (?TxShowCaret@CTxtWinHost@DuiLib@@UAEHH@Z)
+DuiLib.lib(UIRichEdit.obj) : error LNK2019: unresolved external symbol __imp__ShowCaret@4 referenced in function "public: virtual int __thiscall DuiLib::CTxtWinHost::TxShowCaret(int)" (?TxShowCaret@CTxtWinHost@DuiLib@@UAEHH@Z)
+DuiLib.lib(UIRichEdit.obj) : error LNK2019: unresolved external symbol __imp__SetCaretPos@8 referenced in function "public: virtual int __thiscall DuiLib::CTxtWinHost::TxSetCaretPos(int,int)" (?TxSetCaretPos@CTxtWinHost@DuiLib@@UAEHHH@Z)
+DuiLib.lib(UIRichEdit.obj) : error LNK2019: unresolved external symbol __imp__GetCaretPos@4 referenced in function "public: virtual void __thiscall DuiLib::CRichEditUI::DoEvent(struct DuiLib::tagTEventUI &)" (?DoEvent@CRichEditUI@DuiLib@@UAEXAAUtagTEventUI@2@@Z)
+DuiLib.lib(UIEdit.obj) : error LNK2001: unresolved external symbol __imp__GetCaretPos@4
+DuiLib.lib(UIRichEdit.obj) : error LNK2019: unresolved external symbol __imp__GetSysColor@4 referenced in function "public: virtual unsigned long __thiscall DuiLib::CTxtWinHost::TxGetSysColor(int)" (?TxGetSysColor@CTxtWinHost@DuiLib@@UAEKH@Z)
+DuiLib.lib(UIEdit.obj) : error LNK2019: unresolved external symbol __imp__CreatePatternBrush@4 referenced in function "public: virtual long __thiscall DuiLib::CEditWnd::HandleMessage(unsigned int,unsigned int,long)" (?HandleMessage@CEditWnd@DuiLib@@UAEJIIJ@Z)
+DuiLib.lib(UIEdit.obj) : error LNK2019: unresolved external symbol __imp__SetWindowTextA@8 referenced in function "public: virtual void __thiscall DuiLib::CEditUI::SetText(char const *)" (?SetText@CEditUI@DuiLib@@UAEXPBD@Z)
+DuiLib.lib(UIEdit.obj) : error LNK2019: unresolved external symbol __imp__GetWindowTextA@12 referenced in function "public: long __thiscall DuiLib::CEditWnd::OnEditChanged(unsigned int,unsigned int,long,int &)" (?OnEditChanged@CEditWnd@DuiLib@@QAEJIIJAAH@Z)
+DuiLib.lib(UIEdit.obj) : error LNK2019: unresolved external symbol __imp__GetWindowTextLengthA@4 referenced in function "public: void __thiscall DuiLib::CEditWnd::Init(class DuiLib::CEditUI *)" (?Init@CEditWnd@DuiLib@@QAEXPAVCEditUI@2@@Z)
+DuiLib.lib(UIActiveX.obj) : error LNK2019: unresolved external symbol __imp__CreateAcceleratorTableA@8 referenced in function "public: virtual long __stdcall DuiLib::CActiveXCtrl::GetWindowContext(struct IOleInPlaceFrame * *,struct IOleInPlaceUIWindow * *,struct tagRECT *,struct tagRECT *,struct tagOIFI *)" (?GetWindowContext@CActiveXCtrl@DuiLib@@UAGJPAPAUIOleInPlaceFrame@@PAPAUIOleInPlaceUIWindow@@PAUtagRECT@@2PAUtagOIFI@@@Z)
+DuiLib.lib(UIActiveX.obj) : error LNK2019: unresolved external symbol __imp__InvalidateRgn@12 referenced in function "public: virtual long __stdcall DuiLib::CActiveXCtrl::InvalidateRgn(struct HRGN__ *,int)" (?InvalidateRgn@CActiveXCtrl@DuiLib@@UAGJPAUHRGN__@@H@Z)
+DuiLib.lib(UIActiveX.obj) : error LNK2019: unresolved external symbol __imp__GetGUIThreadInfo@8 referenced in function "protected: long __thiscall DuiLib::CActiveXWnd::OnPrint(unsigned int,unsigned int,long,int &)" (?OnPrint@CActiveXWnd@DuiLib@@IAEJIIJAAH@Z)
+DuiLib.lib(UIActiveX.obj) : error LNK2019: unresolved external symbol __imp__CoUninitialize@0 referenced in function "public: virtual __thiscall DuiLib::CActiveXUI::~CActiveXUI(void)" (??1CActiveXUI@DuiLib@@UAE@XZ)
+DuiLib.lib(UIActiveX.obj) : error LNK2019: unresolved external symbol __imp__CoCreateInstance@20 referenced in function "protected: virtual bool __thiscall DuiLib::CActiveXUI::DoCreateControl(void)" (?DoCreateControl@CActiveXUI@DuiLib@@MAE_NXZ)
+DuiLib.lib(UIActiveX.obj) : error LNK2019: unresolved external symbol __imp__CLSIDFromString@8 referenced in function "public: bool __thiscall DuiLib::CActiveXUI::CreateControl(char const *)" (?CreateControl@CActiveXUI@DuiLib@@QAE_NPBD@Z)
+DuiLib.lib(UIActiveX.obj) : error LNK2019: unresolved external symbol __imp__CLSIDFromProgID@8 referenced in function "public: bool __thiscall DuiLib::CActiveXUI::CreateControl(char const *)" (?CreateControl@CActiveXUI@DuiLib@@QAE_NPBD@Z)
+DuiLib.lib(UIActiveX.obj) : error LNK2019: unresolved external symbol __imp__OleLockRunning@12 referenced in function "public: virtual long __stdcall DuiLib::CActiveXCtrl::OnInPlaceActivateEx(int *,unsigned long)" (?OnInPlaceActivateEx@CActiveXCtrl@DuiLib@@UAGJPAHK@Z)
+DuiLib.lib(UIWebBrowser.obj) : error LNK2019: unresolved external symbol __imp__SysAllocString@4 referenced in function "public: void __thiscall DuiLib::CWebBrowserUI::NavigateUrl(char const *)" (?NavigateUrl@CWebBrowserUI@DuiLib@@QAEXPBD@Z)
+DuiLib.lib(UIWebBrowser.obj) : error LNK2019: unresolved external symbol __imp__SysAllocStringLen@8 referenced in function "wchar_t * __cdecl A2WBSTR(char const *,int)" (?A2WBSTR@@YAPA_WPBDH@Z)
+DuiLib.lib(UIWebBrowser.obj) : error LNK2019: unresolved external symbol __imp__SysFreeString@4 referenced in function "public: virtual long __stdcall DuiLib::CWebBrowserUI::Exec(struct _GUID const *,unsigned long,unsigned long,struct tagVARIANT *,struct tagVARIANT *)" (?Exec@CWebBrowserUI@DuiLib@@UAGJPBU_GUID@@KKPAUtagVARIANT@@1@Z)
+DuiLib.lib(UIWebBrowser.obj) : error LNK2019: unresolved external symbol __imp__VariantInit@4 referenced in function "public: __thiscall DuiLib::CVariant::CVariant(void)" (??0CVariant@DuiLib@@QAE@XZ)
+DuiLib.lib(UIWebBrowser.obj) : error LNK2019: unresolved external symbol __imp__VariantClear@4 referenced in function "public: __thiscall DuiLib::CVariant::~CVariant(void)" (??1CVariant@DuiLib@@QAE@XZ)
+DuiLib.lib(UIGifAnim.obj) : error LNK2019: unresolved external symbol __imp__CreateStreamOnHGlobal@12 referenced in function "private: class Gdiplus::Image * __thiscall DuiLib::CGifAnimUI::LoadGifFromMemory(void *,unsigned int)" (?LoadGifFromMemory@CGifAnimUI@DuiLib@@AAEPAVImage@Gdiplus@@PAXI@Z)
+DuiLib.lib(WndShadow.obj) : error LNK2019: unresolved external symbol __imp__CreateRectRgn@16 referenced in function "protected: void __thiscall CWndShadow::MakeShadow(unsigned int *,struct HWND__ *,struct tagRECT *)" (?MakeShadow@CWndShadow@@IAEXPAIPAUHWND__@@PAUtagRECT@@@Z)
+DuiLib.lib(WndShadow.obj) : error LNK2019: unresolved external symbol __imp__PtInRegion@12 referenced in function "protected: void __thiscall CWndShadow::MakeShadow(unsigned int *,struct HWND__ *,struct tagRECT *)" (?MakeShadow@CWndShadow@@IAEXPAIPAUHWND__@@PAUtagRECT@@@Z)
+DuiLib.lib(WndShadow.obj) : error LNK2019: unresolved external symbol __imp__GetWindowRgn@8 referenced in function "protected: void __thiscall CWndShadow::MakeShadow(unsigned int *,struct HWND__ *,struct tagRECT *)" (?MakeShadow@CWndShadow@@IAEXPAIPAUHWND__@@PAUtagRECT@@@Z)
+..\bin\MenuDemo_d.exe : fatal error LNK1120: 141 unresolved externals

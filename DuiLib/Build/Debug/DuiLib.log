@@ -1,0 +1,68 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  StdAfx.cpp
+C:\code\duilib\DuiLib\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  UIWebBrowser.cpp
+  UIText.cpp
+C:\code\duilib\DuiLib\Control\UIText.cpp(52,37): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+  UISlider.cpp
+C:\code\duilib\DuiLib\Control\UISlider.cpp(212,36): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+  UIScrollBar.cpp
+  UIRichEdit.cpp
+  UIProgress.cpp
+  UIOption.cpp
+  UIList.cpp
+C:\code\duilib\DuiLib\Control\UIList.cpp(1781,44): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+C:\code\duilib\DuiLib\Control\UIList.cpp(2417,48): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+  UILabel.cpp
+  UIGifAnim.cpp
+C:\code\duilib\DuiLib\Control\UIGifAnim.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+  UIEdit.cpp
+C:\code\duilib\DuiLib\Control\UIEdit.cpp(288,35): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+  UIDateTime.cpp
+C:\code\duilib\DuiLib\Control\UIDateTime.cpp(297,35): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+  UICombo.cpp
+  UICheckBox.cpp
+  UIButton.cpp
+C:\code\duilib\DuiLib\Control\UIButton.cpp(127,35): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+  UIActiveX.cpp
+  UIVerticalLayout.cpp
+C:\code\duilib\DuiLib\Layout\UIVerticalLayout.cpp(306,37): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+  UITileLayout.cpp
+  UITabLayout.cpp
+  UIHorizontalLayout.cpp
+C:\code\duilib\DuiLib\Layout\UIHorizontalLayout.cpp(313,37): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+  Generating Code...
+  Compiling...
+  UIChildLayout.cpp
+  UIRender.cpp
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1196,61): warning C4838: conversion from 'int' to 'COLOR16' requires a narrowing conversion
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1196,86): warning C4838: conversion from 'int' to 'COLOR16' requires a narrowing conversion
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1196,111): warning C4838: conversion from 'int' to 'COLOR16' requires a narrowing conversion
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1197,66): warning C4838: conversion from 'int' to 'COLOR16' requires a narrowing conversion
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1197,92): warning C4838: conversion from 'int' to 'COLOR16' requires a narrowing conversion
+C:\code\duilib\DuiLib\Core\UIRender.cpp(1197,118): warning C4838: conversion from 'int' to 'COLOR16' requires a narrowing conversion
+  UIMarkup.cpp
+  UIManager.cpp
+C:\code\duilib\DuiLib\Core\UIManager.cpp(1045,39): warning C4838: conversion from 'DWORD' to 'LONG' requires a narrowing conversion
+C:\code\duilib\DuiLib\Core\UIManager.cpp(1045,48): warning C4838: conversion from 'DWORD' to 'LONG' requires a narrowing conversion
+  UIDlgBuilder.cpp
+  UIControl.cpp
+C:\code\duilib\DuiLib\Core\UIControl.cpp(832,40): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+  UIContainer.cpp
+  UIBase.cpp
+  WndShadow.cpp
+  Utils.cpp
+  UIDelegate.cpp
+  WinImplBase.cpp
+  UIlib.cpp
+  UITreeView.cpp
+  Generating Code...
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  stb_image.c
+cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  XUnzip.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1274,5): warning MSB8012: TargetPath(C:\code\duilib\DuiLib\.\Build\Debug\DuiLib.dll) does not match the Linker's OutputFile property value (C:\code\duilib\bin\DuiLib_d.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1276,5): warning MSB8012: TargetName(DuiLib) does not match the Linker's OutputFile property value (DuiLib_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library ../lib/DuiLib_d.lib and object ../lib/DuiLib_d.exp
+  DuiLib.vcxproj -> C:\code\duilib\DuiLib\.\Build\Debug\DuiLib.dll

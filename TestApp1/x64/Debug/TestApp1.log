@@ -1,0 +1,5 @@
+﻿  StdAfx.cpp
+C:\code\duilib\DuiLib\Core\UIManager.h(45,2): warning C4091: 'typedef ': ignored on left of 'DuiLib::EVENTTYPE_UI' when no variable is declared
+  App.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1274,5): warning MSB8012: TargetPath(C:\code\duilib\x64\Debug\TestApp1.exe) does not match the Linker's OutputFile property value (C:\code\duilib\bin\TestApp1.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+  TestApp1.vcxproj -> C:\code\duilib\x64\Debug\TestApp1.exe
